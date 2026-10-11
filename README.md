@@ -2,7 +2,7 @@
 A Go port of chibicc C compiler (all 316 commits)
 
 This is a humble attempt to port Rui's chibicc compiler to Golang.
-While Chibicc IMO is *NOT* a toy compiler, petitecc sure is :) 
+While Chibicc IMO is *NOT* a toy compiler, petitecc sure is.  
 This is *not* AI generated. That said, of course I used AI help whenever I got stuck.
 
 To Compile: make\
@@ -18,7 +18,7 @@ I tried to (mostly) stay close to what chibicc did, so this is not at all idioma
 have this idiom often: (rest **Token, tok *Token) and I kept it. 
 
 I used Go's flag package for command-line parameter handling, so petitecc is not 100% compatible 
-(e.g. to link with math library, you use -lm in gcc / clang /chibicc, but -l=m in petitecc)
+(e.g. to link with math library, you use -lm in gcc / clang /chibicc, but -l=m in petitecc).  \
 Due to that incompatibility,I didn't bother trying to compile git, cpython etc that chibicc did in the final stages of compiler.
 
 I did however go through all 316 commits. Here is a list of commits that have something done differently from chibicc, 
