@@ -3,15 +3,16 @@ A Go port of chibicc C compiler (all 316 commits)
 
 This is a humble attempt to port Rui's chibicc compiler to Golang.
 While Chibicc IMO is *NOT* a toy compiler, petitecc sure is :) 
-This is *not* AI slop. That said, of course I used AI help whenever I got stuck.
+This is *not* AI generated. That said, of course I used AI help whenever I got stuck.
 
-To Compile: make
-To run compiler test suite: make test
-Compiler flags help: ./petitecc --help (or just ./petitecc)
+To Compile: make\
+To run compiler test suite: make test\
+Compiler flags help: ./petitecc --help (or just ./petitecc)\
 
-I did this for 2 reasons:
--Wanted to learn Go (did learn some).
--Wanted to see how a *real* compiler works (Ok, did see, but did not always understand haha. Also, sometimes C is just *messy* and unnecessarily complex).
+I did this for 2 reasons:\
+-Wanted to learn Go (did learn some).\
+-Wanted to see how a *real* compiler works (Ok, did see, but did not always understand haha. 
+Also, sometimes C is just *messy* and unnecessarily complex).
 
 I tried to (mostly) stay close to what chibicc did, so this is not at all idiomatic Go (for example, parsing routines 
 have this idiom often: (rest **Token, tok *Token) and I kept it. 
